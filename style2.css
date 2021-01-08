@@ -1,0 +1,34 @@
+.world{
+	font-family:courier;
+}
+
+body{
+	background-color: #fcdab7;
+	background-attachment:fixed;
+	background-image:url("react.png");
+}
+
+p{
+	color:#ff577f;
+	text-align:center;
+	border-style: dotted;
+	border-width: 10px;
+	border-color: tomato;
+}
+
+#sutanuka{
+	font-family: Bell MT;
+	color:magenta;
+}
+\
+.bootcamp{
+	font-family:serif;
+	color: purple;
+	size:11px;
+}
+ h1	{
+ 	font-size:50px;
+ 	margin-left: 20px;
+ 	margin-top: 100px;
+ 	color:red;
+ }

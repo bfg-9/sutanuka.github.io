@@ -1,0 +1,26 @@
+.header{
+	background-color: #ececec;
+	color: #21e6c1;
+	height:100vh;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+}
+ .header-intro{
+ 	 margin: 10px;
+
+ }
+
+ .picture{
+ 	border-radius:50%;
+ 	height:200px;
+ 	width:200px;
+ 	align-self:center;
+ 	box-shadow: #01024e 2px 5px 5px;
+
+ }
+ body{
+ 	margin:0;
+ }

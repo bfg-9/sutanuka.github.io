@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+</head>
+<body>
+    <h1>Learning Javascript</h1>
+    <p id="learn">New Element in Script Tag</p>
+    <!--<button onclick="window.print()">Submit</<button>-->
+    	<form name="form" onsubmit="return fromb()" method="post">
+    		Name :<input type="text" name="studentname">
+    		<input type="submit" value="submit">
+    	</form>
+
+    	<script>
+	    	function fromb()
+	    	var a= document.forms["forma"]["studentname"].value;
+	    	if(a== "") {
+	    		alert("Name must be filled out");
+	    		return false
+    	    }
+        </script>
+
+        <!-- button onclick="document.write(1+1)">Submit</button>..>
+        <!--<script>
+        	function myFunction()
+        	document.getElemtById("learn").innerHTML="Learning Script Tag";
+        </script>-->
+        
+        <!--<button onclick='document'.getElementById("learn").style.display="none"'>submit</button>-->
+        <!--<button onclick='document'.getElementById("learn").style.fontSize="40px"'>submit</button>-->	
+
+</body>
+</html>
